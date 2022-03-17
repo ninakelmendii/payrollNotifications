@@ -1,0 +1,56 @@
+
+.notificationEntryContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.unreadDot{
+  height: 10px;
+  width: 10px;
+  background-color: #89c732;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.genderAvatar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+}
+
+.notificationContent{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 15px;
+  font-size: 17px ;
+
+  .notificationTime {
+    margin-top: 10px;
+    color: #89c732;
+    font-size: 11px;
+  }
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.unreadContainer{
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unreadNotification{
+  cursor: pointer;
+  &:hover{
+    background-color: #d3d3d336;
+  }
+}
