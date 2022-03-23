@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;500;600&display=swap");
+.form {
+  z-index: 1;
+  display: flex;
+  background-color: #1d2642;
+  flex-wrap: wrap;
+  width: 450px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 62%;
+}
+.controlInput {
+  font-family: "Roboto Slab", serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.6px;
+  color: #6c757d;
+}
+.formControl {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 10px !important;
+  width: 160px !important;
+  font-family: "Roboto Slab", serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.6px;
+  height: 36px !important;
+}
+.form-control {
+  color: #6c757d !important;
+  font-family: "Roboto Slab", serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.6px;
+}
+.formControlBig {
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: "Roboto Slab", serif;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.6px;
+  width: 383px !important;
+  height: 36px !important;
+}
+.buttonSubmit {
+  background-color: #fe9563 !important;
+  border-radius: 20px !important;
+  border-color: #fe9563 !important;
+  padding: auto;
+  display: flex;
+  margin-bottom: 10px !important;
+  font-family: "Roboto Slab", serif !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  letter-spacing: 2px !important;
+  margin: auto !important;
+  width: 383px !important;
+  height: 50px;
+}
+.buttonSubmit:hover {
+  background-color: #fe9563;
+}
+.form-select {
+  color: #6c757d !important;
+  font-family: "Roboto Slab", serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.6px;
+}
+.formHeading {
+  text-align: center !important;
+  display: flex;
+  margin: auto;
+  background: transparent;
+  color: white;
+  font-family: "Squada One", cursive !important;
+  font-size: 37px !important;
+  font-weight: 500;
+  letter-spacing: 1.8px;
+}
+
+@media (max-width: 766px) {
+  .form {
+    position: relative;
+    left: 0%;
+    height: auto;
+
+    margin-top: 10%;
+    margin: 10% auto;
+    width: auto;
+  }
+  .formControl {
+    width: 200px !important;
+  }
+  .formControlBig {
+    width: 200px !important;
+  }
+  .buttonSubmit {
+    width: 200px !important;
+  }
+}
+
+@media (max-device-width: 820px) {
+  .form {
+    position: relative;
+    left: 0%;
+    height: auto;
+    width: auto;
+    margin-top: 10%;
+    margin: 10% auto;
+  }
+  .formControl {
+    width: 400px !important;
+  }
+  .formControlBig {
+    width: 400px !important;
+  }
+  .buttonSubmit {
+    width: 400px !important;
+  }
+}
+
+@media (min-device-width: 821px) and (max-device-width: 1200px) {
+  .form {
+    position: relative;
+    left: 0%;
+    height: auto;
+    width: auto;
+    margin-top: 10%;
+    margin: 10% auto;
+  }
+  .formControl {
+    width: 600px !important;
+  }
+  .formControlBig {
+    width: 600px !important;
+  }
+  .buttonSubmit {
+    width: 600px !important;
+  }
+} ;

@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Squada+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;500;600&display=swap");
+img {
+  display: flex;
+  justify-content: center;
+  margin: 5% 300px 0 auto;
+  max-width: 1000px;
+  z-index: 1;
+  border: 5px solid #555;
+}
+h1.heading {
+  margin-top: 3%;
+  text-align: center;
+  font-family: "Squada One", cursive;
+  font-size: 58px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+h6.p {
+  text-align: center;
+  margin: auto;
+  font-family: "Roboto Slab", serif;
+  font-size: 17px !;
+  font-weight: 500;
+  width: 45%;
+  letter-spacing: 1px;
+}
+@media (max-device-width: 320px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+  h6.p {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-device-width: 375px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+  h6.p {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-device-width: 425px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+  h6.p {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-device-width: 768px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+  h6.p {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (min-device-width: 1024px) {
+  img {
+    width: 80%;
+    height: auto;
+  }
+}
